@@ -1,0 +1,69 @@
+body {
+	background: #444;
+}
+
+.body > div {
+	float: left;
+	max-width: 300px;
+	min-width: 300px;
+	min-height: 260px;
+	position: relative;
+	margin-left: 15px;
+	margin-top: 15px;
+	display: inline-block;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-shadow: 2px 2px 2px #888;
+	overflow: hidden;
+	max-height: 300px;
+	box-shadow: 3px 3px 3px #424;
+	transition: all 0.2s;
+}
+
+.body > div:hover {
+	box-shadow: 10px 10px 10px #444;
+	cursor: pointer;
+}
+
+.body {
+	background: #666;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.body img {
+	max-width: 100%;
+}
+
+.body a {
+	color: #fff;
+	text-decoration: none;
+}
+
+._7lx {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.page-id-input {
+	margin: 10px 0px;
+	text-align: center;
+	margin-left: 10px;
+	width: calc(100% - 20px);
+}
+
+.body a:hover {
+	text-decoration: none;
+}
+
+.action {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.action button {
+	min-width: 100px;
+}
